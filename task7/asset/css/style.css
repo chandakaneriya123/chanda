@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.vision__main-container {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.resume__images {
+    width: 100%;
+    max-width: 70px;
+}
+
+.resume__content {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume__header {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.resume__main-title {
+    font-size: 36px;
+    line-height: 40px
+}
+
+.resume__description {
+    margin: 5px 0;
+    color: #555;
+}
+
+.resume__section {
+    margin-bottom: 20px;
+}
+
+.resume__title {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.resume__description,
+.resume__list {
+    margin: 10px 0;
+    color: #444;
+}
+
+.resume__list {
+    padding-left: 20px;
+}
+
+.resume__link {
+    margin-bottom: 8px;
+    list-style: none;
+}
